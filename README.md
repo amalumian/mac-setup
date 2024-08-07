@@ -1,7 +1,5 @@
 # Mac Setup
 
----
-
 This document serves as a guide for setting up my future MacBooks. It provides an overview of system preferences and a comprehensive list of applications categorized by their intended use. This resource is designed to help me configure my Mac efficiently and effectively, ensuring that I have the necessary tools for various tasks.
 
 ### Table of contents
