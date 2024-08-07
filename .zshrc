@@ -27,19 +27,17 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 # edit global zsh configuration
-alias zshconfig="vim ~/.zshrc"
+alias zshconfig="nvim ~/.zshrc"
 # reload zsh configuration
 alias zshsource="source ~/.zshrc"
-# reload zsh configuration
+# navigate to oh-my-zsh directory
 alias ohmyzsh="cd ~/.oh-my-zsh"
-
 # navigate to global ssh directory
 alias sshhome="cd ~/.ssh"
 # edit global ssh configuration
-alias sshconfig="vim ~/.ssh/config"
-
+alias sshconfig="nvim ~/.ssh/config"
 # edit global git configuration
-alias gitconfig="vim ~/.gitconfig"
+alias gitconfig="nvim ~/.gitconfig"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
